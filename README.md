@@ -15,6 +15,10 @@ Para executar a aplicação no modo **'produção'**, basta executar o seguinte 
     docker-compose up
 ```
 
+Acesso a API (Django Rest Framework)
+
+http://127.0.0.1:8000/api/v1/prizes_interval
+
 Para executar os **testes**, basta executar o seguinte comando:
 
 ```
