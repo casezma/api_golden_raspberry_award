@@ -4,7 +4,7 @@ Esta aplicação foi feita com Django.
 
 ## Importação de Arquivos CSV
 
-Por padrão o diretório de 'produção', está dentro de **csv/production** e os de teste estão em **csv/tests** (onde contem diferentes bases de dados que foram usadas para os teste.)
+Por padrão o diretório de 'produção', está dentro de **csv/production** e os de teste estão em **csv/tests** (onde contem diferentes bases de dados que foram usadas para os testes.)
 
 
 ## Execução da Aplicação
