@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  texo:
+    ports:
+      - "8000:8000"
+    build:
+      context: ./
+    command: "python -u src/manage.py test app.tests --verbosity 3"
+    volumes:
+      - "./:/app"
+
+

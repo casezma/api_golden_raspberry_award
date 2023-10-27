@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  texo:
+    ports:
+      - "8000:8000"
+    build:
+      context: ./
+    command: "python -u src/manage.py runserver 0.0.0.0:8000 --noreload"
+    volumes:
+      - "./:/app"
+
+
